@@ -21,9 +21,9 @@ Lingua.prototype.define = function(args) {
 //   return Li.preRender(this.lingua)(args)();
 // }
 
-Lingua.prototype.render = function(args) {
-  return Li.render(this.lingua)(args)();
-}
+// Lingua.prototype.render = function(args) {
+//   return Li.render(this.lingua)(args)();
+// }
 
 // Lingua.prototype.postRender = function(args) {
 //   return Li.postRender(this.lingua)(args)();
