@@ -6,7 +6,7 @@ export function exoLang(args) {
 
 export function Lingua(args) {
   if (args==null) args = {};
-  this.lingua = Li.launch(args)();
+  this.lingua = Li.launch();
 }
 
 // Lingua.prototype.define = function(args) {
