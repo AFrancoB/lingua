@@ -9,9 +9,9 @@ export function Lingua(args) {
   this.lingua = Li.launch(args)();
 }
 
-Lingua.prototype.define = function(args) {
-  return Li.define(this.lingua)(args)();
-}
+// Lingua.prototype.define = function(args) {
+//   return Li.define(this.lingua)(args)();
+// }
 
 // Lingua.prototype.clear = function(args) {
 //   return Li.clear(this.lingua)(args)();

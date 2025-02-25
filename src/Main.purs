@@ -13,10 +13,6 @@ import Data.Maybe
 
 import Parser
 
-main :: Effect Unit
-main = do
-  log "🍝"
-
 -- launch :: Effect TimekNot
 -- launch = do
 --   log "timekNot: launch"
